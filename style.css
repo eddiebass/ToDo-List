@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	background: #f3efcc;
+	font-weight: 300;
+}
+
+h1 {
+	font-family: "Varela Round", sans-serif;
+	font-weight: 400;
+	margin-bottom: 40px;
+	font-size: 24px;
+}
+
+main {
+	max-width: 1000px;
+	margin: 100px auto;
+	padding: 0 25px;
+}
+.plan {
+	text-align: center;
+}
+
+input {
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	width: 100%;
+	height: 45px;
+	background: none;
+	border: 2px solid #090910;
+	padding-left: 5px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+.super {
+	width: 50%;
+}
+
+button {
+	font-family: "Varela Round", sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	background: #383839;
+	border: none;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+ul {
+	margin-bottom: 20px;
+}
+
+li {
+	list-style: none;
+	padding: 10px 10px;
+	background: #dcd7b0;
+	margin-bottom: 5px;
+	border: 2px solid #383839;
+	border-radius: 5px;
+	font-size: 16px;
+}
+
+p {
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+img {
+	width: 3%;
+	height: 10%;
+	padding: 0;
+	margin: 0;
+}
+
+span {
+	color: #e02401;
+	font-weight: 400;
+}
+
+.justo {
+	color: crimson;
+}
